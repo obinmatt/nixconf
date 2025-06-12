@@ -89,17 +89,19 @@
   environment.systemPackages = with pkgs; [
     git
     yazi
+    floorp
+    redlib
     lazygit
     bottles
+    vesktop
+    neofetch
     mangohud
     r2modman
-    neofetch
-    vesktop
-    floorp
   ];
 
   programs.steam.enable = true;
   programs.steam.remotePlay.openFirewall = true;
+  programs.steam.extraCompatPackages = [pkgs.proton-ge-bin];
   programs.gamemode.enable = true;
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
