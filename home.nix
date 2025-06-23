@@ -21,7 +21,7 @@
     syntaxHighlighting.enable = true;
     shellAliases = {
       nixswitch = "sudo nixos-rebuild switch --flake /etc/nixos/Config/#default";
-      nixup = "pushd /etc/nixos; nix flake update; nixswitch; popd";
+      nixup = "pushd /etc/nixos/Config; nix flake update; nixswitch; popd";
       "nix-shell" = "nix-shell --command zsh";
     };
   };
