@@ -97,6 +97,7 @@
     neofetch
     mangohud
     r2modman
+    parsec-bin
   ];
 
   programs.steam.enable = true;
