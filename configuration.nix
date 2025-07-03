@@ -98,6 +98,7 @@
     mangohud
     r2modman
     parsec-bin
+    wl-clipboard
   ];
 
   programs.steam.enable = true;
