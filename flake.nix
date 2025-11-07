@@ -8,7 +8,7 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     # custom neovim
     neovim-flake.url = "github:obinmatt/neovim-flake";
-    neovim-flake.inputs.nixpkgs.follows = "nixpkgs";
+    # neovim-flake.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
