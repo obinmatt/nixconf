@@ -30,6 +30,7 @@ in {
               core
               niri
               shell
+              cursor
               waybar
               wayland
               ghostty
