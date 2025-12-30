@@ -13,6 +13,8 @@
 
     # Networking
     networking.networkmanager.enable = true;
+
+    # TODO: move to future pihole module
     networking.firewall.allowedTCPPorts = [53];
     networking.firewall.allowedUDPPorts = [53];
 
